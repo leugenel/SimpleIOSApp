@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8666B1101BAC10B8008CBD38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666B10F1BAC10B8008CBD38 /* main.m */; };
+		8666B1131BAC10B8008CBD38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666B1121BAC10B8008CBD38 /* AppDelegate.m */; };
+		8666B1161BAC10B8008CBD38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666B1151BAC10B8008CBD38 /* ViewController.m */; };
+		8666B1191BAC10B8008CBD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8666B1171BAC10B8008CBD38 /* Main.storyboard */; };
+		8666B11B1BAC10B8008CBD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8666B11A1BAC10B8008CBD38 /* Assets.xcassets */; };
+		8666B1291BAC10B8008CBD38 /* TryAppium1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666B1281BAC10B8008CBD38 /* TryAppium1Tests.m */; };
+		8666B1341BAC10B8008CBD38 /* TryAppium1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666B1331BAC10B8008CBD38 /* TryAppium1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8666B1251BAC10B8008CBD38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8666B1031BAC10B8008CBD38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8666B10A1BAC10B8008CBD38;
+			remoteInfo = TryAppium1;
+		};
+		8666B1301BAC10B8008CBD38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8666B1031BAC10B8008CBD38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8666B10A1BAC10B8008CBD38;
+			remoteInfo = TryAppium1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8666B10B1BAC10B8008CBD38 /* TryAppium1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryAppium1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8666B10F1BAC10B8008CBD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8666B1111BAC10B8008CBD38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8666B1121BAC10B8008CBD38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8666B1141BAC10B8008CBD38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8666B1151BAC10B8008CBD38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8666B1181BAC10B8008CBD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8666B11A1BAC10B8008CBD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8666B11F1BAC10B8008CBD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8666B1241BAC10B8008CBD38 /* TryAppium1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryAppium1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8666B1281BAC10B8008CBD38 /* TryAppium1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryAppium1Tests.m; sourceTree = "<group>"; };
+		8666B12A1BAC10B8008CBD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8666B12F1BAC10B8008CBD38 /* TryAppium1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryAppium1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8666B1331BAC10B8008CBD38 /* TryAppium1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryAppium1UITests.m; sourceTree = "<group>"; };
+		8666B1351BAC10B8008CBD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8666B1081BAC10B8008CBD38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8666B1211BAC10B8008CBD38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8666B12C1BAC10B8008CBD38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8666B1021BAC10B8008CBD38 = {
+			isa = PBXGroup;
+			children = (
+				8666B10D1BAC10B8008CBD38 /* TryAppium1 */,
+				8666B1271BAC10B8008CBD38 /* TryAppium1Tests */,
+				8666B1321BAC10B8008CBD38 /* TryAppium1UITests */,
+				8666B10C1BAC10B8008CBD38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8666B10C1BAC10B8008CBD38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8666B10B1BAC10B8008CBD38 /* TryAppium1.app */,
+				8666B1241BAC10B8008CBD38 /* TryAppium1Tests.xctest */,
+				8666B12F1BAC10B8008CBD38 /* TryAppium1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8666B10D1BAC10B8008CBD38 /* TryAppium1 */ = {
+			isa = PBXGroup;
+			children = (
+				8666B1111BAC10B8008CBD38 /* AppDelegate.h */,
+				8666B1121BAC10B8008CBD38 /* AppDelegate.m */,
+				8666B1141BAC10B8008CBD38 /* ViewController.h */,
+				8666B1151BAC10B8008CBD38 /* ViewController.m */,
+				8666B1171BAC10B8008CBD38 /* Main.storyboard */,
+				8666B11A1BAC10B8008CBD38 /* Assets.xcassets */,
+				8666B11F1BAC10B8008CBD38 /* Info.plist */,
+				8666B10E1BAC10B8008CBD38 /* Supporting Files */,
+			);
+			path = TryAppium1;
+			sourceTree = "<group>";
+		};
+		8666B10E1BAC10B8008CBD38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8666B10F1BAC10B8008CBD38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8666B1271BAC10B8008CBD38 /* TryAppium1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8666B1281BAC10B8008CBD38 /* TryAppium1Tests.m */,
+				8666B12A1BAC10B8008CBD38 /* Info.plist */,
+			);
+			path = TryAppium1Tests;
+			sourceTree = "<group>";
+		};
+		8666B1321BAC10B8008CBD38 /* TryAppium1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8666B1331BAC10B8008CBD38 /* TryAppium1UITests.m */,
+				8666B1351BAC10B8008CBD38 /* Info.plist */,
+			);
+			path = TryAppium1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8666B10A1BAC10B8008CBD38 /* TryAppium1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8666B1381BAC10B8008CBD38 /* Build configuration list for PBXNativeTarget "TryAppium1" */;
+			buildPhases = (
+				8666B1071BAC10B8008CBD38 /* Sources */,
+				8666B1081BAC10B8008CBD38 /* Frameworks */,
+				8666B1091BAC10B8008CBD38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryAppium1;
+			productName = TryAppium1;
+			productReference = 8666B10B1BAC10B8008CBD38 /* TryAppium1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8666B1231BAC10B8008CBD38 /* TryAppium1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8666B13B1BAC10B8008CBD38 /* Build configuration list for PBXNativeTarget "TryAppium1Tests" */;
+			buildPhases = (
+				8666B1201BAC10B8008CBD38 /* Sources */,
+				8666B1211BAC10B8008CBD38 /* Frameworks */,
+				8666B1221BAC10B8008CBD38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8666B1261BAC10B8008CBD38 /* PBXTargetDependency */,
+			);
+			name = TryAppium1Tests;
+			productName = TryAppium1Tests;
+			productReference = 8666B1241BAC10B8008CBD38 /* TryAppium1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8666B12E1BAC10B8008CBD38 /* TryAppium1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8666B13E1BAC10B8008CBD38 /* Build configuration list for PBXNativeTarget "TryAppium1UITests" */;
+			buildPhases = (
+				8666B12B1BAC10B8008CBD38 /* Sources */,
+				8666B12C1BAC10B8008CBD38 /* Frameworks */,
+				8666B12D1BAC10B8008CBD38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8666B1311BAC10B8008CBD38 /* PBXTargetDependency */,
+			);
+			name = TryAppium1UITests;
+			productName = TryAppium1UITests;
+			productReference = 8666B12F1BAC10B8008CBD38 /* TryAppium1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8666B1031BAC10B8008CBD38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Eugene Leibovich";
+				TargetAttributes = {
+					8666B10A1BAC10B8008CBD38 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					8666B1231BAC10B8008CBD38 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8666B10A1BAC10B8008CBD38;
+					};
+					8666B12E1BAC10B8008CBD38 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8666B10A1BAC10B8008CBD38;
+					};
+				};
+			};
+			buildConfigurationList = 8666B1061BAC10B8008CBD38 /* Build configuration list for PBXProject "TryAppium1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8666B1021BAC10B8008CBD38;
+			productRefGroup = 8666B10C1BAC10B8008CBD38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8666B10A1BAC10B8008CBD38 /* TryAppium1 */,
+				8666B1231BAC10B8008CBD38 /* TryAppium1Tests */,
+				8666B12E1BAC10B8008CBD38 /* TryAppium1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8666B1091BAC10B8008CBD38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8666B11B1BAC10B8008CBD38 /* Assets.xcassets in Resources */,
+				8666B1191BAC10B8008CBD38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8666B1221BAC10B8008CBD38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8666B12D1BAC10B8008CBD38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8666B1071BAC10B8008CBD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8666B1161BAC10B8008CBD38 /* ViewController.m in Sources */,
+				8666B1131BAC10B8008CBD38 /* AppDelegate.m in Sources */,
+				8666B1101BAC10B8008CBD38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8666B1201BAC10B8008CBD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8666B1291BAC10B8008CBD38 /* TryAppium1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8666B12B1BAC10B8008CBD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8666B1341BAC10B8008CBD38 /* TryAppium1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8666B1261BAC10B8008CBD38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8666B10A1BAC10B8008CBD38 /* TryAppium1 */;
+			targetProxy = 8666B1251BAC10B8008CBD38 /* PBXContainerItemProxy */;
+		};
+		8666B1311BAC10B8008CBD38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8666B10A1BAC10B8008CBD38 /* TryAppium1 */;
+			targetProxy = 8666B1301BAC10B8008CBD38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8666B1171BAC10B8008CBD38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8666B1181BAC10B8008CBD38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8666B1361BAC10B8008CBD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8666B1371BAC10B8008CBD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8666B1391BAC10B8008CBD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TryAppium1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = liveperson.TryAppium1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8666B13A1BAC10B8008CBD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TryAppium1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = liveperson.TryAppium1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8666B13C1BAC10B8008CBD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryAppium1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liveperson.TryAppium1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryAppium1.app/TryAppium1";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		8666B13D1BAC10B8008CBD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryAppium1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liveperson.TryAppium1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryAppium1.app/TryAppium1";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		8666B13F1BAC10B8008CBD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryAppium1UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liveperson.TryAppium1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryAppium1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8666B1401BAC10B8008CBD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryAppium1UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liveperson.TryAppium1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryAppium1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8666B1061BAC10B8008CBD38 /* Build configuration list for PBXProject "TryAppium1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8666B1361BAC10B8008CBD38 /* Debug */,
+				8666B1371BAC10B8008CBD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8666B1381BAC10B8008CBD38 /* Build configuration list for PBXNativeTarget "TryAppium1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8666B1391BAC10B8008CBD38 /* Debug */,
+				8666B13A1BAC10B8008CBD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8666B13B1BAC10B8008CBD38 /* Build configuration list for PBXNativeTarget "TryAppium1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8666B13C1BAC10B8008CBD38 /* Debug */,
+				8666B13D1BAC10B8008CBD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8666B13E1BAC10B8008CBD38 /* Build configuration list for PBXNativeTarget "TryAppium1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8666B13F1BAC10B8008CBD38 /* Debug */,
+				8666B1401BAC10B8008CBD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8666B1031BAC10B8008CBD38 /* Project object */;
+}
